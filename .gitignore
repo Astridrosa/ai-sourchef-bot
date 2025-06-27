@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environments
+.env
+.env.*
+*.env
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+
+# LangChain & Pinecone Cache
+cache/
+__cache__/
+langchain.db
+
+# Misc
+*.bak
+*.swp
+*.tmp
+*.old
